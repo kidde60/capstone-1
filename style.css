@@ -20,6 +20,27 @@ body {
   display: none;
 }
 
+.price {
+  background: #3c3f46;
+  padding: 20px 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+  justify-content: center;
+  gap: 20px;
+}
+
+.price i {
+  color: #f4f4f4;
+  font-size: 40px;
+  padding: 0;
+}
+
+.price p {
+  margin: 0;
+  font-size: 15px;
+}
+
 .overlay {
   height: 100%;
   width: 0%;
@@ -177,7 +198,7 @@ body {
 
 .Room-section {
   display: block;
-  padding: 50px 0 0;
+  padding: 0 0 50px;
   margin: 0 5%;
   color: #d3d3d3;
 }
@@ -328,19 +349,16 @@ small {
   margin: 25px 0;
 }
 
-.price {
-  padding-left: 5%;
-}
-
 .text h1,
 .text h2 {
   padding-top: 20px;
   padding-left: 10%;
 }
 
-.price h1 {
+.price h2 {
   color: #ec5242;
-  font-size: 30px;
+  font-size: 20px;
+  margin: 0;
 }
 
 .text h1 {
@@ -348,23 +366,22 @@ small {
   font-size: 30px;
 }
 
-.price span,
 .text span {
   font-size: 30px;
   color: #d3d3d3;
 }
 
-.price h3,
 .text h2 {
   margin: 0;
   font-size: 16px;
 }
 
-.Room1:hover,
-.Room2:hover,
-.Room3:hover,
-.Room4:hover {
-  border: 3px #f4f4f4 solid;
+.work h1 {
+  margin-top: 0;
+}
+
+.price:hover {
+  border: 2px #f4f4f4 solid;
 }
 
 .contact-section {
@@ -411,10 +428,11 @@ footer {
 .sponser {
   background: #272a31;
   color: #d3d3d3;
-  margin-top: 5%;
+  margin-top: 0;
 }
 
-.sponser h1 {
+.sponser h1,
+.sponser1 h1 {
   text-align: center;
   font-size: 30px;
   padding: 30px 0 0;
@@ -425,17 +443,25 @@ footer {
   display: none;
 }
 
-.sponser-image {
-  display: flex;
-  flex-direction: row;
-  padding: 50px 0;
-  align-items: center;
-  flex-wrap: wrap;
+.sponser1 {
+  display: none;
 }
 
-.sponser-image img {
-  width: 150px;
-  height: 100px;
+.sponser-image {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 50px;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.flex img {
+  width: 100px;
+  height: 50px;
 }
 
 .sponser-image a {
@@ -477,6 +503,10 @@ footer {
   margin-right: 5%;
 }
 
+.our {
+  background: #d3d3d3;
+}
+
 .our h1 {
   font-size: 50px;
   text-align: center;
@@ -485,7 +515,7 @@ footer {
 }
 
 .image-div {
-  margin: 10px 5%;
+  margin: 20px 5%;
 }
 
 .our h2 {
@@ -501,6 +531,58 @@ footer {
 .our small {
   font-size: 20px;
   color: #707079;
+}
+
+.our p {
+  background: #fff;
+  text-align: center;
+  margin: 30px 5%;
+  padding: 20px;
+}
+
+.small {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+
+.small small {
+  font-size: 15px;
+  color: #272a31;
+  font-weight: 400;
+  padding: 10px 15% 0;
+}
+
+.small a {
+  text-decoration: underline;
+}
+
+.white {
+  background: #fff;
+  padding-bottom: 50px;
+  border-bottom: 2px #d3d3d3 solid;
+}
+
+.white h2 {
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.white p {
+  margin-top: 0;
+}
+
+.contact2 {
+  margin: 0 5%;
+  padding: 20px;
+  border: 2px #d3d3d3 solid;
+}
+
+.Discover {
+  background: #fff;
+  margin-bottom: 0;
 }
 
 .next {
@@ -574,7 +656,7 @@ footer {
 }
 
 .work {
-  margin: 10% 0;
+  margin: 5% 0;
   text-align: center;
 }
 
@@ -590,27 +672,6 @@ footer {
   margin: 50px 30px;
 }
 
-.About-list {
-  list-style: none;
-  margin-top: 30px;
-}
-
-.About-list li {
-  display: flex;
-  gap: 10px;
-  color: #272a31;
-}
-
-.About-list h2 {
-  font-size: 20px;
-}
-
-.About-list i {
-  font-size: 30px;
-  margin-top: 20px;
-  color: #ec5242;
-}
-
 .seeMore {
   background-color: #d3d3d3;
   width: 95%;
@@ -624,6 +685,20 @@ footer {
   font-size: 20px;
 }
 
+.work1 h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.black {
+  color: #272a31;
+}
+
+.black h4 {
+  margin-top: 0;
+}
+
 @media only screen and (min-width: 768px) {
   .navbar {
     display: none;
@@ -631,6 +706,18 @@ footer {
 
   .navigation {
     display: none;
+  }
+
+  .price {
+    background: #3c3f46;
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
   }
 
   .topnav {
@@ -675,7 +762,8 @@ footer {
     justify-content: space-around;
   }
 
-  footer {
+  footer,
+  .contact1 {
     justify-content: center;
     gap: 20px;
   }
@@ -700,19 +788,36 @@ footer {
   .sponser-image {
     display: flex;
     flex-direction: row;
-    padding: 0;
-    gap: 20px;
     justify-content: center;
-    flex-wrap: nowrap;
   }
 
-  .sponser-image img {
-    width: 250px;
-    height: 200px;
+  .sponser1 {
+    background: #272a31;
+    color: #d3d3d3;
+    margin-top: 0;
+    display: block;
+  }
+
+  .contact1 {
+    display: block;
+  }
+
+  .flex {
+    display: flex;
+    gap: 50px;
+  }
+
+  .flex img {
+    width: 150px;
+    height: 100px;
   }
 
   small {
     font-size: 20px;
+  }
+
+  .work {
+    margin: 0;
   }
 
   .about h1,
@@ -720,6 +825,11 @@ footer {
     font-size: 50px;
     line-height: 48px;
     font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .contact2 {
+    margin: 10px 30%;
   }
 
   .services {
@@ -733,6 +843,11 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    padding-bottom: 0;
+  }
+
+  .hero p {
+    width: 50%;
   }
 
   .contact-section p {
@@ -743,16 +858,18 @@ footer {
     padding-right: 40%;
   }
 
-  .small {
-    margin-top: 40px;
-    width: 30%;
-  }
-
   .contact-div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 30px;
+  }
+
+  .our p {
+    background: #fff;
+    text-align: center;
+    margin: 30px 15%;
+    padding: 20px;
   }
 
   .our h1 {
@@ -784,6 +901,11 @@ footer {
   .Room-list h2 {
     font-size: 20px;
     text-align: left;
+  }
+
+  .small {
+    margin-top: 40px;
+    width: 100%;
   }
 
   .image-div {
@@ -832,6 +954,7 @@ footer {
   }
 
   .sponser hr,
+  .sponser1 hr,
   .work hr,
   .background hr {
     background-color: #f55114;

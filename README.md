@@ -73,9 +73,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- I would like to give Credit to Cindy Shin the author of the original design, as required by the Creative Commons License.
+- Huge appreciation to microverse team for creating such a great curriculmn.
+To my coding partners and various team members for contributing to my understaing of the content.
+- And finally thanks to my family for the ample time and financial support.
 
 ## 📝 License
 
