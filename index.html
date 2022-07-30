@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/fcfd1041d5.js" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Hotel Website</title>
+</head>
+
+<body>
+    <header>
+        <nav class="topnav">
+            <ul>
+                <li> <a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li> <a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+
+                <li> <a href="#">Log Out</a></li>
+                <li> <a href="#">My Page</a></li>
+
+            </ul>
+        </nav>
+        <div class="header">
+            <a href="index.html" class="logo">Wills Hotel</a>
+
+            <div class="navigation">
+                <div id="myNav" class="overlay mobile">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="index.html" class="menu-link">Home</a>
+                        <a href="about.html" class="menu-link1">About Us</a>
+                        <a href="rooms.html" class="menu-link2">Rooms</a>
+                    </div>
+                </div>
+                <span onclick="openNav()" class="mobile">&#9776;</span>
+            </div>
+            <nav class="nav">
+                <ul class="desktop">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- header Section -->
+    <section class="home">
+        <div class="hero">
+            <h1>"We Welcome You All At"</h1>
+            <h2>Wills A Luxury Hotel</h2>
+            <p>At Wills Hotel, we accommodate people from the whole corners of the wolrd.Everyday we prepare to receive
+                and facilitate people from different cultures both locally and all over the globe.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="background">
+        <h1>Our Rooms</h1>
+        <hr>
+        <div class="Room-section">
+            <div class="Room1">
+                <div class="price">
+                    <h2>Double Rooms</h2>
+                    <h3><span>199$</span>/Pernight</h3>
+                </div>
+            </div>
+            <div class="Room2">
+                <div class="price">
+                    <h2>Premium King Room</h2>
+                    <h3><span>159$</span>/Pernight</h3>
+                </div>
+            </div>
+            <div class="Room3">
+                <div class="price">
+                    <h2>Deluxe Room</h2>
+                    <h3><span>198$</span>/Pernight</h3>
+                </div>
+            </div>
+            <div class="Room4">
+                <div class="price">
+                    <h2>Family Room</h2>
+                    <h3><span>299$</span>/Pernight</h3>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="morebtn"> See More Rooms</button>
+        <h2><a href="#" class="desktop-only">See More Rooms</a></h2>
+    </section>
+    <!-- Dynamic Section -->
+    <section class="services-section">
+        <div class="work">
+            <h1>Our Services</h1>
+            <hr>
+        </div>
+        <div class="services">
+
+        </div>
+
+        <button type="button" class="seeMore">see More</button>
+    </section>
+    <section class="sponser">
+        <h1>Our Partners</h1>
+        <hr>
+        <div class="sponser-image">
+            <a href=""><img src="https://promzzykoncepts.github.io/NFT-Conference/images/coinbase.svg" alt=""></a>
+            <a href=""><img src="https://promzzykoncepts.github.io/NFT-Conference/images/binance-Logo.png" alt=""></a>
+            <a href=""><img src="https://promzzykoncepts.github.io/NFT-Conference/images/Flow.png" alt=""></a>
+            <a href=""><img src="https://promzzykoncepts.github.io/NFT-Conference/images/moonpaymain.svg" alt=""></a>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="contact">
+            <h1>Wills Hotel</h1>
+        </div>
+        <p class="link">Copyright ©2022 All rights reserved | This is a Demo Website and all contacts provided are
+            null
+            and void.
+            This website is designed by <a href="kgeorgewilliam60@gmail.com" class="email">Kidde</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
