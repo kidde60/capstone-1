@@ -11,7 +11,7 @@
 - JavaScript
 
 ## Live Demo
-- https://kidde60.github.io/Capstone-project-1/
+- https://kidde60.github.io/capstone-1/
 
 ## Video Link
 - https://drive.google.com/file/d/1HEwOX8LZdfijqQNlpqkIWLNpLyAXxMQa/view?usp=sharing
